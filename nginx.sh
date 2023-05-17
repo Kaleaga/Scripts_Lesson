@@ -6,10 +6,10 @@ sudo apt update
 sudo apt install -y nginx
 
 #enable service
-sudo systemctl start ngnix
+sudo systemctl start nginx
 
 #Added Nginx in autorun
-sudo systemctl enable ngnix
+sudo systemctl enable nginx
 
 #Chek status Nginx
 sudo systemctl staus nginx
